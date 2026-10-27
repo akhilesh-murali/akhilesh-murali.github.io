@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akhilesh M — Solution Builder | Full-Stack Developer</title>
+    <meta name="description" content="I turn business problems into working software. Custom web apps, API integrations, and workflow automation for small businesses and startups.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__brand">
+                <a href="#home" class="nav__logo">Akhilesh M</a>
+            </div>
+            <button class="nav__toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="nav__toggle-bar"></span>
+                <span class="nav__toggle-bar"></span>
+                <span class="nav__toggle-bar"></span>
+            </button>
+            <ul class="nav__menu" id="navMenu">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link">Home</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#solutions" class="nav__link">Solutions</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#work" class="nav__link">Selected Work</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#how" class="nav__link">How I Work</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#about" class="nav__link">About</a>
+                </li>
+                <li class="nav__item">
+                    <a href="#contact" class="nav__link nav__link--cta">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero__container">
+            <div class="hero__content">
+                <h1 class="hero__title">Turn Your Business Problems Into Working Software</h1>
+                <p class="hero__subtitle">
+                    I help small businesses and startups simplify operations with custom web applications, 
+                    API integrations, and workflow automation.
+                </p>
+                <div class="hero__cta">
+                    <a href="#contact" class="btn btn--primary">Discuss Your Project</a>
+                    <a href="#work" class="btn btn--secondary">Explore Selected Work</a>
+                </div>
+                <p class="hero__trust">
+                    Full-stack development across backend APIs, database design, payment integrations, 
+                    admin portals, and deployed applications.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problems Section -->
+    <section class="problems">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Problems I Can Help Solve</h2>
+                <p class="section__subtitle">If any of these sound familiar, we can work together on a solution</p>
+            </div>
+            <div class="problems__grid">
+                <div class="problem__card">
+                    <i class="fas fa-clock problem__icon"></i>
+                    <h3 class="problem__title">Repetitive Tasks</h3>
+                    <p class="problem__text">Automate time-consuming manual work that slows down your team</p>
+                </div>
+                <div class="problem__card">
+                    <i class="fas fa-table problem__icon"></i>
+                    <h3 class="problem__title">Disconnected Tools</h3>
+                    <p class="problem__text">Connect your spreadsheets and tools so data flows seamlessly</p>
+                </div>
+                <div class="problem__card">
+                    <i class="fas fa-file-import problem__icon"></i>
+                    <h3 class="problem__title">Manual Data Entry</h3>
+                    <p class="problem__text">Eliminate importing, reporting, and data cleanup headaches</p>
+                </div>
+                <div class="problem__card">
+                    <i class="fas fa-tachometer-alt problem__icon"></i>
+                    <h3 class="problem__title">Need a Custom Dashboard</h3>
+                    <p class="problem__text">Build internal tools that give you visibility into your business</p>
+                </div>
+                <div class="problem__card">
+                    <i class="fas fa-plug problem__icon"></i>
+                    <h3 class="problem__title">API Integrations</h3>
+                    <p class="problem__text">Connect third-party services or fix broken integrations</p>
+                </div>
+                <div class="problem__card">
+                    <i class="fas fa-tools problem__icon"></i>
+                    <h3 class="problem__title">Maintenance & Improvements</h3>
+                    <p class="problem__text">Update, fix, or enhance your existing software</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="solutions" class="services">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Solutions</h2>
+                <p class="section__subtitle">Practical services tailored to your business needs</p>
+            </div>
+            <div class="services__grid">
+                <article class="service__card">
+                    <div class="service__header">
+                        <i class="fas fa-plug service__icon"></i>
+                        <h3 class="service__title">API Integration Sprint</h3>
+                    </div>
+                    <p class="service__description">
+                        Connect two systems or integrate a third-party API with proper error handling and webhooks.
+                    </p>
+                    <ul class="service__list">
+                        <li><i class="fas fa-check"></i> REST API integrations</li>
+                        <li><i class="fas fa-check"></i> Webhooks & event handling</li>
+                        <li><i class="fas fa-check"></i> Error handling & logging</li>
+                        <li><i class="fas fa-check"></i> Testing & handover docs</li>
+                    </ul>
+                    <div class="service__footer">
+                        <p class="service__price">Contact for a quote</p>
+                    </div>
+                </article>
+
+                <article class="service__card">
+                    <div class="service__header">
+                        <i class="fas fa-robot service__icon"></i>
+                        <h3 class="service__title">Business Workflow Automation</h3>
+                    </div>
+                    <p class="service__description">
+                        Eliminate repetitive tasks by automating data flows between your tools and systems.
+                    </p>
+                    <ul class="service__list">
+                        <li><i class="fas fa-check"></i> Workflow mapping</li>
+                        <li><i class="fas fa-check"></i> Data sync & transformation</li>
+                        <li><i class="fas fa-check"></i> Scheduled jobs & notifications</li>
+                        <li><i class="fas fa-check"></i> Testing with real data</li>
+                    </ul>
+                    <div class="service__footer">
+                        <p class="service__price">Contact for a quote</p>
+                    </div>
+                </article>
+
+                <article class="service__card">
+                    <div class="service__header">
+                        <i class="fas fa-chart-line service__icon"></i>
+                        <h3 class="service__title">Custom Internal Tool or Dashboard</h3>
+                    </div>
+                    <p class="service__description">
+                        Build admin portals, CRMs, or dashboards tailored exactly to your workflow.
+                    </p>
+                    <ul class="service__list">
+                        <li><i class="fas fa-check"></i> CRUD operations & auth</li>
+                        <li><i class="fas fa-check"></i> Reports & filtering</li>
+                        <li><i class="fas fa-check"></i> Role-based access control</li>
+                        <li><i class="fas fa-check"></i> Deployment & documentation</li>
+                    </ul>
+                    <div class="service__footer">
+                        <p class="service__price">Contact for a quote</p>
+                    </div>
+                </article>
+            </div>
+            <div class="services__note">
+                <p>All projects are scoped with clear deliverables, timelines, and acceptance criteria before work begins. <a href="#contact" style="color: var(--primary); font-weight: 500;">Contact for a quote</a>.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Selected Work Section -->
+    <section id="work" class="work">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Selected Work</h2>
+                <p class="section__subtitle">A mix of personal projects showcasing full-stack capabilities</p>
+            </div>
+            <div class="work__grid">
+                <article class="work__card">
+                    <div class="work__image">
+                        <div class="work__image-placeholder">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                    </div>
+                    <div class="work__content">
+                        <div class="work__meta">
+                            <span class="work__type">Personal Project</span>
+                        </div>
+                        <h3 class="work__title">Pulse Chat — Real-Time Messaging</h3>
+                        <p class="work__description">
+                            Real-time messaging app with social features, authentication, and containerized deployment.
+                        </p>
+                        <div class="work__tags">
+                            <span class="work__tag">Django REST</span>
+                            <span class="work__tag">React</span>
+                            <span class="work__tag">WebSockets</span>
+                            <span class="work__tag">Redis</span>
+                            <span class="work__tag">Docker</span>
+                        </div>
+                        <div class="work__features">
+                            <ul>
+                                <li>Real-time messaging with WebSockets</li>
+                                <li>JWT auth, Google OAuth & 2FA</li>
+                                <li>Social following functionality</li>
+                                <li>Containerized with Docker</li>
+                            </ul>
+                        </div>
+                        <div class="work__links">
+                            <a href="https://github.com/Akhilesh286/chat.app" target="_blank" rel="noopener noreferrer" class="work__link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="work__card">
+                    <div class="work__image">
+                        <div class="work__image-placeholder">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                    </div>
+                    <div class="work__content">
+                        <div class="work__meta">
+                            <span class="work__type">Personal Project</span>
+                        </div>
+                        <h3 class="work__title">ResumeAI — AI-Assisted Resume Builder</h3>
+                        <p class="work__description">
+                            Build and edit resumes with AI assistance and export to PDF with a clean template.
+                        </p>
+                        <div class="work__tags">
+                            <span class="work__tag">Next.js</span>
+                            <span class="work__tag">TypeScript</span>
+                            <span class="work__tag">OpenAI</span>
+                            <span class="work__tag">Supabase</span>
+                            <span class="work__tag">Puppeteer</span>
+                        </div>
+                        <div class="work__features">
+                            <ul>
+                                <li>AI-assisted content generation</li>
+                                <li>Resume editing & live preview</li>
+                                <li>Template-based presentation</li>
+                                <li>PDF export</li>
+                            </ul>
+                        </div>
+                        <div class="work__links">
+                            <a href="https://github.com/Akhilesh286/ResumeAI" target="_blank" rel="noopener noreferrer" class="work__link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="work__card">
+                    <div class="work__image">
+                        <div class="work__image-placeholder">
+                            <i class="fas fa-blog"></i>
+                        </div>
+                    </div>
+                    <div class="work__content">
+                        <div class="work__meta">
+                            <span class="work__type">Personal Project</span>
+                        </div>
+                        <h3 class="work__title">Ideas & Thoughts — Content-Sharing Platform</h3>
+                        <p class="work__description">
+                            Server-rendered blogging platform with interactive features built with Flask and HTMX.
+                        </p>
+                        <div class="work__tags">
+                            <span class="work__tag">Flask</span>
+                            <span class="work__tag">HTMX</span>
+                            <span class="work__tag">PostgreSQL</span>
+                            <span class="work__tag">SQLAlchemy</span>
+                        </div>
+                        <div class="work__features">
+                            <ul>
+                                <li>Markdown editor</li>
+                                <li>Comments, likes & bookmarks</li>
+                                <li>Social following</li>
+                                <li>Server-rendered interactivity</li>
+                            </ul>
+                        </div>
+                        <div class="work__links">
+                            <a href="https://github.com/Akhilesh286/blog.flask" target="_blank" rel="noopener noreferrer" class="work__link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="work__more">
+                <p>More projects on <a href="https://github.com/Akhilesh286" target="_blank" rel="noopener noreferrer">GitHub</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How I Work Section -->
+    <section id="how" class="process">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">How I Work</h2>
+                <p class="section__subtitle">A clear process from problem to working solution</p>
+            </div>
+            <div class="process__steps">
+                <div class="process__step">
+                    <div class="process__number">1</div>
+                    <div class="process__content">
+                        <h3 class="process__title">Understand the Problem</h3>
+                        <p class="process__text">We discuss your current workflow, pain points, and what success looks like.</p>
+                    </div>
+                </div>
+                <div class="process__step">
+                    <div class="process__number">2</div>
+                    <div class="process__content">
+                        <h3 class="process__title">Define the Scope</h3>
+                        <p class="process__text">I propose a practical scope with features, timeline, deliverables, and acceptance criteria.</p>
+                    </div>
+                </div>
+                <div class="process__step">
+                    <div class="process__number">3</div>
+                    <div class="process__content">
+                        <h3 class="process__title">Build in Milestones</h3>
+                        <p class="process__text">Work is delivered in stages with regular updates and early validation.</p>
+                    </div>
+                </div>
+                <div class="process__step">
+                    <div class="process__number">4</div>
+                    <div class="process__content">
+                        <h3 class="process__title">Test and Refine</h3>
+                        <p class="process__text">We test the agreed functionality and resolve issues within scope.</p>
+                    </div>
+                </div>
+                <div class="process__step">
+                    <div class="process__number">5</div>
+                    <div class="process__content">
+                        <h3 class="process__title">Deploy and Handover</h3>
+                        <p class="process__text">I deploy as agreed and provide setup docs so you can use it confidently.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="process__principles">
+                <h3 class="principles__title">Working Principles</h3>
+                <div class="principles__grid">
+                    <div class="principle__item">
+                        <i class="fas fa-bullseye"></i>
+                        <span>Problem-first, not tech-first</span>
+                    </div>
+                    <div class="principle__item">
+                        <i class="fas fa-list-check"></i>
+                        <span>Clear scope before building</span>
+                    </div>
+                    <div class="principle__item">
+                        <i class="fas fa-comments"></i>
+                        <span>Transparent communication</span>
+                    </div>
+                    <div class="principle__item">
+                        <i class="fas fa-shield-alt"></i>
+                        <span>Secure handling of data</span>
+                    </div>
+                    <div class="principle__item">
+                        <i class="fas fa-code"></i>
+                        <span>Pragmatic, maintainable code</span>
+                    </div>
+                    <div class="principle__item">
+                        <i class="fas fa-handshake"></i>
+                        <span>Explicit approval for extras</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Section -->
+    <section class="tech">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Technical Capabilities</h2>
+                <p class="section__subtitle">Tools I use to build reliable solutions</p>
+            </div>
+            <div class="tech__grid">
+                <div class="tech__category">
+                    <h3 class="tech__category-title"><i class="fas fa-server"></i> Backend</h3>
+                    <div class="tech__items">
+                        <span class="tech__item">Node.js</span>
+                        <span class="tech__item">Express.js</span>
+                        <span class="tech__item">Python</span>
+                        <span class="tech__item">Django / DRF</span>
+                        <span class="tech__item">Flask</span>
+                        <span class="tech__item">FastAPI</span>
+                    </div>
+                </div>
+                <div class="tech__category">
+                    <h3 class="tech__category-title"><i class="fas fa-laptop-code"></i> Frontend</h3>
+                    <div class="tech__items">
+                        <span class="tech__item">React</span>
+                        <span class="tech__item">Next.js</span>
+                        <span class="tech__item">TypeScript</span>
+                        <span class="tech__item">JavaScript</span>
+                        <span class="tech__item">HTMX</span>
+                        <span class="tech__item">Tailwind CSS</span>
+                    </div>
+                </div>
+                <div class="tech__category">
+                    <h3 class="tech__category-title"><i class="fas fa-database"></i> Databases</h3>
+                    <div class="tech__items">
+                        <span class="tech__item">PostgreSQL</span>
+                        <span class="tech__item">MSSQL</span>
+                        <span class="tech__item">MySQL</span>
+                        <span class="tech__item">SQLite</span>
+                        <span class="tech__item">Redis</span>
+                        <span class="tech__item">MongoDB</span>
+                    </div>
+                </div>
+                <div class="tech__category">
+                    <h3 class="tech__category-title"><i class="fas fa-plug"></i> Integrations</h3>
+                    <div class="tech__items">
+                        <span class="tech__item">REST APIs</span>
+                        <span class="tech__item">Stripe</span>
+                        <span class="tech__item">Webhooks</span>
+                        <span class="tech__item">JWT/Auth</span>
+                        <span class="tech__item">OAuth</span>
+                        <span class="tech__item">2FA/TOTP</span>
+                    </div>
+                </div>
+                <div class="tech__category">
+                    <h3 class="tech__category-title"><i class="fas fa-cloud"></i> Infra & Deployment</h3>
+                    <div class="tech__items">
+                        <span class="tech__item">Docker</span>
+                        <span class="tech__item">Linux</span>
+                        <span class="tech__item">Nginx</span>
+                        <span class="tech__item">Azure</span>
+                        <span class="tech__item">Git</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about__container">
+                <div class="about__content">
+                    <div class="section__header section__header--left">
+                        <h2 class="section__title">About</h2>
+                        <p class="section__subtitle">Solution Builder | Full-Stack Developer</p>
+                    </div>
+                    <p class="about__text">
+                        I help small businesses, agencies, and startups turn operational problems into practical software solutions. 
+                        From backend APIs and internal dashboards to payment integrations and workflow automation, I focus on 
+                        understanding the problem first, choosing a sensible technical approach, and delivering a clearly scoped solution.
+                    </p>
+                    <p class="about__text">
+                        I work end-to-end — from requirements and design to build, test, and deploy. The goal is always simple: 
+                        build software that makes your business operations easier.
+                    </p>
+                    <div class="about__clients">
+                        <h3 class="about__clients-title">Ideal Clients</h3>
+                        <ul class="about__clients-list">
+                            <li>Small businesses managing operations manually</li>
+                            <li>SaaS startups needing product features or integrations</li>
+                            <li>Software/web agencies needing freelance development support</li>
+                            <li>Consultants & service businesses looking to streamline workflows</li>
+                        </ul>
+                    </div>
+                    <div class="about__links">
+                        <a href="https://akhilesh286.github.io/" target="_blank" rel="noopener noreferrer" class="about__link">
+                            <i class="fas fa-globe"></i> Personal Portfolio
+                        </a>
+                        <a href="https://github.com/Akhilesh286" target="_blank" rel="noopener noreferrer" class="about__link">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                        <a href="https://www.linkedin.com/in/akhilesh286/" target="_blank" rel="noopener noreferrer" class="about__link">
+                            <i class="fab fa-linkedin"></i> LinkedIn
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section__header">
+                <h2 class="section__title">Get In Touch</h2>
+                <p class="section__subtitle">Have a workflow you want to improve? Let's talk.</p>
+            </div>
+            <div class="contact__cta">
+                <p class="contact__text">
+                    Tell me what you're trying to improve, what your current process looks like, 
+                    and what outcome you want. I can assess whether a custom tool, integration, 
+                    or automation is the right approach.
+                </p>
+                <a href="mailto:akhileshmurali286@gmail.com" class="btn btn--primary btn--large">
+                    <i class="fas fa-envelope"></i> Message Me
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section">
+                    <h3 class="footer__logo">Akhilesh M</h3>
+                    <p class="footer__tagline">Solution Builder | Turning business problems into working software</p>
+                </div>
+                <div class="footer__section">
+                    <h4 class="footer__heading">Quick Links</h4>
+                    <ul class="footer__links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#solutions">Solutions</a></li>
+                        <li><a href="#work">Selected Work</a></li>
+                        <li><a href="#how">How I Work</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer__section">
+                    <h4 class="footer__heading">Connect</h4>
+                    <ul class="footer__links">
+                        <li><a href="mailto:akhileshmurali286@gmail.com"><i class="fas fa-envelope"></i> Email</a></li>
+                        <li><a href="https://github.com/Akhilesh286" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/in/akhilesh286/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                        <li><a href="https://akhilesh286.github.io/" target="_blank" rel="noopener noreferrer"><i class="fas fa-globe"></i> Portfolio</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2026 Akhilesh M. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
